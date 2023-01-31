@@ -63,13 +63,13 @@ namespace HubDeJogos.Models
                     //TODO iniciar Batalha Naval
                     Console.WriteLine("Jogo disponível na próxima atualização do projeto!");
                     Thread.Sleep(3000);
-                    MenuInicial();
+                    ApresentarMenuDeJogos();
                     break;
                 case 3:
                     //TODO apresentar ranking
-                    Console.WriteLine("Funcionalidade disponível na proxíma atualização do projeto!");
+                    Console.WriteLine("Funcionalidade disponível na próxima atualização do projeto!");
                     Thread.Sleep(3000);
-                    MenuInicial();
+                    ApresentarMenuDeJogos();
                     break;
                 case 0:
                     Console.WriteLine("Muito obrigado por utilizar o Hub de Jogos :)");
